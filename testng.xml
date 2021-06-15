@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/DELL/IdeaProjects/ProjectTest">
+        <classes>
+            <class name="stepDefinition.BuscaInicial">
+                <methods>
+                    <include name="BuscaNoBlog"/>
+                    <include name="busca_credenciado"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
